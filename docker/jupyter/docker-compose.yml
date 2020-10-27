@@ -7,7 +7,7 @@ services:
       context: .
     # To use a different port of host, change the first 8888.
     ports:
-      - "8888:8888"
+      - "9999:8888"
     volumes:
       - type: "bind"
         source: ./../../examples
